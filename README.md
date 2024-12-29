@@ -1,6 +1,6 @@
 Kubernetes Manifest
 
-Файл — kubernetes-manifest.yaml, который описывает деплоймент веб-приложения в Kubernetes.
+Файл — kuber_manifest.yaml, который описывает деплоймент веб-приложения в Kubernetes.
 
 Описание решения
 
@@ -34,10 +34,10 @@ Kubernetes Manifest
    - Ingress: Позволяет внешним запросам (HTTP/HTTPS) достигать приложения.
 
 Файлы
-- kubernetes-manifest.yaml: Основной манифест, описывающий Deployment, HPA, Service и Ingress.
+- kuber_manifest.yaml: Основной манифест, описывающий Deployment, HPA, Service и Ingress.
 - README.md: Описание решения и подхода.
 
 Как использовать
 1. Убедитесь, что ваш кластер Kubernetes настроен.
 2. Примените манифест:
-   kubectl apply -f kubernetes-manifest.yaml
+   kubectl apply -f kuber_manifest.yaml
